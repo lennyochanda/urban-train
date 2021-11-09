@@ -13,10 +13,10 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, I'm<span className="fancy">Lenny.</span>
+            Hi, I'm <span className="fancy">Lenny.</span>
           </h1>
           <span className="handle">software developer</span>
-          <h2>I write about various topics as they arise when I write code. Learning and !debugging are my favorite hobbies. Currently learning the MERN stack and <strong><mark>Available</mark></strong>. Jump right in to see what I have in store so far!</h2>
+          <h2>I write about various topics as they arise when I write code. Learning and !debugging are my favorite hobbies. Currently learning the MERN stack and <strong><mark>Available</mark></strong> for work. Jump right in to see what I have in store so far!</h2>
           <SocialList />
         </div>
       </div>
@@ -34,13 +34,15 @@ export default function Index() {
           font-weight: 500;
         }
         h2 {
-          font-size: 1.75rem;
+          font-size: 1.5rem;
           font-weight: 400;
           line-height: 1.25;
         }
         mark {
-          background-color: #158432;
-          color: #fff;
+          background-color: hsla(33, 100%, 53%, 1);
+          background-color: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100);
+          border-radius: 1em 0;
+          padding: .5rem;
         }
         .fancy {
           color: #15847d;
