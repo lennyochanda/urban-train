@@ -39,10 +39,9 @@ export default function Index() {
           line-height: 1.25;
         }
         mark {
-          background-color: hsla(33, 100%, 53%, 1);
           background-color: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100);
           border-radius: 1em 0;
-          padding: .5rem;
+          padding: .2rem;
         }
         .fancy {
           color: #15847d;
