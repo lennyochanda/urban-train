@@ -1,7 +1,7 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://lennyochanda.netlify.app",
+  "site_title": "Lenny Ochanda",
+  "site_description": "personal blog for software development projects",
   "site_keywords": [
     {
       "keyword": "Next.js"
@@ -11,9 +11,12 @@
     },
     {
       "keyword": "React"
+    },
+    {
+      "keyword": "Portfolio"
     }
   ],
-  "posts_per_page": 5,
-  "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "posts_per_page": 10,
+  "twitter_account": "@lenny_ochanda",
+  "github_account": "dak-384"
 }

@@ -13,10 +13,10 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Hi, I'm<span className="fancy">Lenny.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <span className="handle">software developer</span>
+          <h2>I write about various topics as they arise when I write code. Learning and !debugging are my favorite hobbies. Currently learning the MERN stack and <strong><mark>Available</mark></strong>. Jump right in to see what I have in store so far!</h2>
           <SocialList />
         </div>
       </div>
@@ -37,6 +37,10 @@ export default function Index() {
           font-size: 1.75rem;
           font-weight: 400;
           line-height: 1.25;
+        }
+        mark {
+          background-color: #158432;
+          color: #fff;
         }
         .fancy {
           color: #15847d;
