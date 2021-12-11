@@ -3,3 +3,5 @@ tags:
     name: JavaScript
   - slug: algorithms
     name: Algorithms
+  - slug: implementations
+    name: implementations
