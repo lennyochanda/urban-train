@@ -48,23 +48,19 @@ We can use a linear search when we have an array of unsorted data because when t
 
 **Binary Search**
 
-
 A binary search works by cutting an array in half at a middle value and checking whether the value being searched for is greater than the middle value. If it is less than the middle value, the search only continues in the lower half, but if it is more, the search happens in the upper half. This is repeated until either the value is found or the possible values are exhausted.
 
 An example of a binary search in the matrix could be finding a word in a dictionary. Dictionaries are sorted alphabetically. This means that if we want to find a word, for example tomato, we don't have to check every single word in the dictionary. It would be slow, redundant and just painful. We can search for the word tomato by following these steps: 
 
 1. Set the high and lowest possible values i.e last and first word in the dictionary.
-
 2. Find the word in the middle of the high and low values.
-
 3. Compare the middle value to tomato. If it is equal, return. If it is alphabetically after tomato set the high value to be equal to the current middle value and go back to step 2. Otherwise if it is before tomato, set the low value to be equal to the current middle value and go back to step 2.
-
 4. Repeat steps 2 & 3 until you find "tomato" or the remaining words can not be narrowed down further.
 
-An implementation for a binary search on our array of names is shown below:
+An implementation for a binary search on an array of numbers is shown below:
 
 ```javascript
-const names = [ "Thomas", "Antony", "Lisa", "Loice" ]
+const names = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 
 function binarySearch(array, n) {
 	let lowIndex = 0, highIndex = array.length-1
@@ -82,7 +78,7 @@ function binarySearch(array, n) {
 	return 0
 }
 
-console.log(binarySearch(names, "Lisa"))
+console.log(binarySearch(names, 5))
 ```
 
 As seen in the example, the algorithm keeps dividing the array into two halves and comparing until a solution is found. With each iteration of our while loop, the number of possible elements is cut by half. This is basically "Divide and Conquer" with extra steps. For large arrays, binary search is faster than linear search.
