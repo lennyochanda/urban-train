@@ -85,4 +85,8 @@ function binarySearch(array, n) {
 console.log(binarySearch(names, "Lisa"))
 ```
 
-As seen in the example, the algorithm keeps dividing the array into two halves and comparing until a solution is found.
+As seen in the example, the algorithm keeps dividing the array into two halves and comparing until a solution is found. With each iteration of our while loop, the number of possible elements is cut by half. This is basically "Divide and Conquer" with extra steps. For large arrays, binary search is faster than linear search.
+
+In the worst case, binary search has a perfomance of O(log n), also called logarithmic time where n is the number of elements in the array. This means that the running time grows in proportion to the logarithm of the input size. i.e if searching through 10 names takes say 1 second at most, 100 names take 2 seconds and 1000 names take 3 seconds, this is an example of logarithmic time.
+
+We have reached the end of the lesson. Thanks for going through the article. I hope you learned something new today. In case of any questions or corrections please reach out to me on Twitter.
