@@ -16,7 +16,12 @@ export default function Index() {
             Hi, I'm <span className="fancy">Lenny.</span>
           </h1>
           <span className="handle">software developer</span>
-          <h2>I write about various topics as they arise when I write code. Learning and !debugging are my favorite hobbies. Currently learning the MERN stack and <strong><mark>Available</mark></strong> for work. Jump right in to see what I have in store so far!</h2>
+          <h2>I write about various topics in Software Development. 
+              Learning and debugging are my favorite hobbies. 
+              I am currently interested in building or collaborating in 
+              SvelteJS, NextJS and the MERN stack. I am 
+              <strong><mark>Available</mark></strong> for junior web developer roles.
+              Jump right in to see what I have in store so far!</h2>
           <SocialList />
         </div>
       </div>
@@ -27,6 +32,7 @@ export default function Index() {
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
+          width: inherit;
         }
         h1 {
           font-size: 2.5rem;
